@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minimalismo</title>
+</head>
+
+<body class="bg-white text-black dark:text-white dark:bg-black ">
+    <div class="mx-5">
+    <header class="grid grid-cols-12 py-6">
+        <div class="col-span-3 my-auto cursor-pointer" id="dark-mode">
+            <svg class="w-8" viewBox="0 0 20 20">
+                <path class="fill-current " d="M10,2.172c-4.324,0-7.828,3.504-7.828,7.828S5.676,17.828,10,17.828c4.324,0,7.828-3.504,7.828-7.828S14.324,2.172,10,2.172M10,17.004c-3.863,0-7.004-3.141-7.004-7.003S6.137,2.997,10,2.997c3.862,0,7.004,3.141,7.004,7.004S13.862,17.004,10,17.004M10,8.559c-0.795,0-1.442,0.646-1.442,1.442S9.205,11.443,10,11.443s1.441-0.647,1.441-1.443S10.795,8.559,10,8.559 M10,10.619c-0.34,0-0.618-0.278-0.618-0.618S9.66,9.382,10,9.382S10.618,9.661,10.618,10S10.34,10.619,10,10.619 M14.12,8.559c-0.795,0-1.442,0.646-1.442,1.442s0.647,1.443,1.442,1.443s1.442-0.647,1.442-1.443S14.915,8.559,14.12,8.559 M14.12,10.619c-0.34,0-0.618-0.278-0.618-0.618s0.278-0.618,0.618-0.618S14.738,9.661,14.738,10S14.46,10.619,14.12,10.619 M5.88,8.559c-0.795,0-1.442,0.646-1.442,1.442s0.646,1.443,1.442,1.443S7.322,10.796,7.322,10S6.675,8.559,5.88,8.559 M5.88,10.619c-0.34,0-0.618-0.278-0.618-0.618S5.54,9.382,5.88,9.382S6.498,9.661,6.498,10S6.22,10.619,5.88,10.619"></path>
+            </svg>
+        </div>
+
+        <div class="col-span-6 mx-auto">
+            <svg class="w-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 52">
+                <path class="fill-current " d="M52.8959305 51H46v-7l7-13-.1040695 20zM0 0h7v51H0V0zm24 44l3 8L53 0h-7L24 44z"></path>
+            </svg>
+
+        </div>
+
+        <div class="col-end-13 col-span-2 my-auto" id="search-form">
+            <form action="" class="flex px-3 py-2 border border-gray-300 rounded-full"> 
+                    <input class="outline-none" type="text" placeholder="Search...">
+                    <svg class="w-6" viewBox="0 0 20 20" title="Search">
+                        <path class="fill-current " d="M19.129,18.164l-4.518-4.52c1.152-1.373,1.852-3.143,1.852-5.077c0-4.361-3.535-7.896-7.896-7.896
+                            c-4.361,0-7.896,3.535-7.896,7.896s3.535,7.896,7.896,7.896c1.934,0,3.705-0.698,5.078-1.853l4.52,4.519
+                            c0.266,0.268,0.699,0.268,0.965,0C19.396,18.863,19.396,18.431,19.129,18.164z M8.567,15.028c-3.568,0-6.461-2.893-6.461-6.461
+                            s2.893-6.461,6.461-6.461c3.568,0,6.46,2.893,6.46,6.461S12.135,15.028,8.567,15.028z">
+                        </path>
+                    </svg>
+            </form>
+        </div>
+        
+        <a class="col-end-13 col-span-1 my-auto ml-auto" id="search-icon" href="">
+            <svg class="w-6" viewBox="0 0 20 20" title="Search">
+                <path class="fill-current " d="M19.129,18.164l-4.518-4.52c1.152-1.373,1.852-3.143,1.852-5.077c0-4.361-3.535-7.896-7.896-7.896
+                    c-4.361,0-7.896,3.535-7.896,7.896s3.535,7.896,7.896,7.896c1.934,0,3.705-0.698,5.078-1.853l4.52,4.519
+                    c0.266,0.268,0.699,0.268,0.965,0C19.396,18.863,19.396,18.431,19.129,18.164z M8.567,15.028c-3.568,0-6.461-2.893-6.461-6.461
+                    s2.893-6.461,6.461-6.461c3.568,0,6.46,2.893,6.46,6.461S12.135,15.028,8.567,15.028z">
+                </path>
+            </svg>
+        </a>
+  
+            
+    </header>
+
+    <nav class="leading-10 l:leading-none p-6 space-x-3 md:space-y-0 border-b border-t border-gray-300  text-center ">
+        <a class="menu-link active: " href="#pink">Conversations</a>
+        <a class="menu-link" href="#blue">Architecture</a>
+        <a class="menu-link" href="#yellow">Interiors</a>
+        <a class="menu-link" href="#purple">Furniture</a>
+        <a class="menu-link" href="#red">Homewares</a>
+        <a class="menu-link" href="#green">Red</a>
+        <a class="menu-link" href="#gray">Shop</a>
+        <a class="menu-link" href="#indigo">About</a>
+
+    </nav>
+    <main class="px-10 ">
+    <div class="main-title grid grid-cols-12 gap-0 ">
+        <article class="col-span-12 md:col-span-6 md:col-start-4 mt-28 transform hover:scale-105 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-pink-500 to bg-gray-500 max-w-full h-80"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">NCaved </h3>
+                <p class="text-gray-500 ">What could be more minimal than a home that is nearly invisible? This holiday home in Greece achieves spectacular architectural feats with a structure buried into the rugged cliffside. Prepare to be mesmerised by a dwelling like no other.</p>
+            </div>
+        </article>
+    </div>
+
+    <div class="gallery-set grid grid-cols-12 gap-0 " id="pink">       
+
+        <article class="col-span-6 col-start-4 md:col-span-3 md:col-start-2 mt-28 transform hover:rotate-12 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-r from-pink-500 to bg-gray-500 max-w-full h-80"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-5 md:col-end-12 mt-28 transform hover:-rotate-6 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-l from from-pink-500 to bg-gray-500 max-w-full h-80"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">Lo-fi </h3>
+                <p>Moods</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-5 md:col-start-2 mt-28 transform hover:translate-x-3 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-tr from from-pink-800 to bg-gray-500 max-w-full h-80"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+        <article class="col-span-6 col-start-4 md:col-span-3 md:col-end-12 mt-28 transform hover:-translate-x-3 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-bl from from-pink-800 to bg-gray-300 max-w-full h-80"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">Lo-fi </h3>
+                <p>Moods</p>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="gallery-set grid grid-cols-12 gap-0 " id="blue">
+
+        <article class="col-span-6 col-start-4 md:col-span-3 md:col-start-2 mt-28 transform hover:translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-blue-300 to bg-gray-700 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-5 md:col-end-12 mt-40 transform hover:-translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-blue-500 to bg-gray-500 max-w-full h-72"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">Lo-fi </h3>
+                <p>Moods</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-start-1 mt-28 transform hover:skew-y-3 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-tl from from-blue-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-end-13 mt-28 transform hover:-skew-x-6 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-blue-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="gallery-set grid grid-cols-12 gap-0 " id="yellow">
+
+        <article class="col-span-6 col-start-4 md:col-span-3 md:col-start-2 mt-28 transform hover:translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-yellow-300 to bg-gray-700 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-5 md:col-end-12 mt-40 transform hover:-translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-yellow-500 to bg-gray-500 max-w-full h-72"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">Lo-fi </h3>
+                <p>Moods</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-start-1 mt-28 transform hover:skew-y-3 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-tl from from-yellow-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-end-13 mt-28 transform hover:-skew-x-6 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-yellow-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="gallery-set grid grid-cols-12 gap-0 " id="purple">
+
+        <article class="col-span-6 col-start-4 md:col-span-3 md:col-start-2 mt-28 transform hover:translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-purple-300 to bg-gray-700 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-5 md:col-end-12 mt-40 transform hover:-translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-purple-500 to bg-gray-500 max-w-full h-72"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">Lo-fi </h3>
+                <p>Moods</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-start-1 mt-28 transform hover:skew-y-3 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-tl from from-purple-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-end-13 mt-28 transform hover:-skew-x-6 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-purple-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="gallery-set grid grid-cols-12 gap-0 " id="red">
+
+        <article class="col-span-6 col-start-4 md:col-span-3 md:col-start-2 mt-28 transform hover:translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-red-300 to bg-gray-700 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-5 md:col-end-12 mt-40 transform hover:-translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-red-500 to bg-gray-500 max-w-full h-72"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">Lo-fi </h3>
+                <p>Moods</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-start-1 mt-28 transform hover:skew-y-3 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-tl from from-red-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-end-13 mt-28 transform hover:-skew-x-6 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-red-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="gallery-set grid grid-cols-12 gap-0 " id="green">
+
+        <article class="col-span-6 col-start-4 md:col-span-3 md:col-start-2 mt-28 transform hover:translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-green-300 to bg-gray-700 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-5 md:col-end-12 mt-40 transform hover:-translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-green-500 to bg-gray-500 max-w-full h-72"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">Lo-fi </h3>
+                <p>Moods</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-start-1 mt-28 transform hover:skew-y-3 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-tl from from-green-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-end-13 mt-28 transform hover:-skew-x-6 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-green-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="gallery-set grid grid-cols-12 gap-0 " id="gray">
+
+        <article class="col-span-6 col-start-4 md:col-span-3 md:col-start-2 mt-28 transform hover:translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-gray-300 to bg-gray-700 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-5 md:col-end-12 mt-40 transform hover:-translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-gray-500 to bg-gray-100 max-w-full h-72"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">Lo-fi </h3>
+                <p>Moods</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-start-1 mt-28 transform hover:skew-y-3 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-tl from from-gray-500 to bg-gray-900 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-end-13 mt-28 transform hover:-skew-x-6 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-gray-500 to bg-gray-200 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="gallery-set grid grid-cols-12 gap-0 " id="indigo">
+
+        <article class="col-span-6 col-start-4 md:col-span-3 md:col-start-2 mt-28 transform hover:translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-indigo-300 to bg-gray-700 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-5 md:col-end-12 mt-40 transform hover:-translate-y-5 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-indigo-500 to bg-gray-500 max-w-full h-72"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">Lo-fi </h3>
+                <p>Moods</p>
+            </div>
+        </article>
+
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-start-1 mt-28 transform hover:skew-y-3 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-tl from from-indigo-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+        <article class="col-span-10 col-start-2 md:col-span-4 md:col-end-13 mt-28 transform hover:-skew-x-6 transition .8s cursor-pointer">
+            <div class="img bg-gradient-to-br from from-indigo-500 to bg-gray-500 max-w-full h-96"></div>
+            <div class="text max-w-md">
+                <h3 class="font-bold mt-8 ">100–0 Diptych Screenprints </h3>
+                <p>GBP 225.00</p>
+            </div>
+        </article>
+
+    </div>
+
+
+    </main>
+
+    <section class="border-b border-t border-gray-300 mt-20 py-20 text-center">
+        <h2 class="mb-7 font-bold text-2xl ">Support what we do</h2>
+        <a class="btn btn-black" href="">Become a member</a>
+    </section>
+    <div class="border-b border-gray-300">
+        <section class=" py-24 w-96 mx-auto ">
+            <form action="" class="flex px-3 py-2 border border-gray-300 rounded-full"> 
+                <input class="w-96 outline-none" type="text" placeholder="Subscribe to the newsletter">
+                <svg class="w-9 px-2 bg-black text-white rounded-lg hover:bg-gray-400 cursor-pointer " viewBox="0 0 20 20">
+                    <path class="fill-current" d="M1.729,9.212h14.656l-4.184-4.184c-0.307-0.306-0.307-0.801,0-1.107c0.305-0.306,0.801-0.306,1.106,0
+                    l5.481,5.482c0.018,0.014,0.037,0.019,0.053,0.034c0.181,0.181,0.242,0.425,0.209,0.66c-0.004,0.038-0.012,0.071-0.021,0.109
+                    c-0.028,0.098-0.075,0.188-0.143,0.271c-0.021,0.026-0.021,0.061-0.045,0.085c-0.015,0.016-0.034,0.02-0.051,0.033l-5.483,5.483
+                    c-0.306,0.307-0.802,0.307-1.106,0c-0.307-0.305-0.307-0.801,0-1.105l4.184-4.185H1.729c-0.436,0-0.788-0.353-0.788-0.788
+                    S1.293,9.212,1.729,9.212z"></path>
+                </svg>
+            </form>
+        </section>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <nav class="flex justify-between items-center py-3 px-5 text-xs sm:text-sm text-gray-500">
+
+        <span class="space-x-6">
+            <a class="" href="https://minimalissimo.com/about">Contacts</a>
+            <a class="" href="https://minimalissimo.com/sponsors">Sponsors</a>
+            <a class="" href="https://minimalissimo.com/privacy">Privacy</a>
+        </span>
+
+        <a class="" href="https://minimalissimo.com" aria-label="Homepage">
+            <svg class="w-6 text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 52">
+                <path class="fill-current" d="M52.8959305 51H46v-7l7-13-.1040695 20zM0 0h7v51H0V0zm24 44l3 8L53 0h-7L24 44z"></path>
+            </svg>
+        </a>       
+
+        <span class="space-x-6">
+            <a class="" target="_blank" href="https://twitter.com/minimalissimo/" rel="noreferrer">Twitter</a>
+            <a class="" target="_blank" href="https://www.instagram.com/minimalissimo/" rel="noreferrer">Instagram</a>
+            <a class="" target="_blank" href="https://www.facebook.com/minimalissimo" rel="noreferrer">Facebook</a>
+        </span>
+
+    </nav>
+</footer>
+
+<a class="text-gray-700 fixed right-6 bottom-5 opacity-75 hover:opacity-100 cursor-pointer" id="back-to-top" href="#">
+    <svg class="w-16 " viewBox="0 0 20 20">
+        <path class="fill-current" d="M13.889,11.611c-0.17,0.17-0.443,0.17-0.612,0l-3.189-3.187l-3.363,3.36c-0.171,0.171-0.441,0.171-0.612,0c-0.172-0.169-0.172-0.443,0-0.611l3.667-3.669c0.17-0.17,0.445-0.172,0.614,0l3.496,3.493C14.058,11.167,14.061,11.443,13.889,11.611 M18.25,10c0,4.558-3.693,8.25-8.25,8.25c-4.557,0-8.25-3.692-8.25-8.25c0-4.557,3.693-8.25,8.25-8.25C14.557,1.75,18.25,5.443,18.25,10 M17.383,10c0-4.07-3.312-7.382-7.383-7.382S2.618,5.93,2.618,10S5.93,17.381,10,17.381S17.383,14.07,17.383,10">
+
+        </path>
+    </svg>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</body>
